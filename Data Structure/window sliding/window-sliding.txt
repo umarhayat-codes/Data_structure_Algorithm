@@ -1,0 +1,12 @@
+The Sliding Window technique is a powerful approach for solving array and string problems efficiently, especially when 
+you need to find a subset of elements that satisfy a particular condition. Sliding window is commonly used for problems 
+that involve finding subarrays (contiguous subsets of an array) or substrings with a certain property.
+
+When we use it :
+	for contiguous subarray and substring
+
+Approach:
+	1. initial window 
+	2. we slide window using loop
+		a. add rightmost mean right new item
+		b. remove leftmost mean first item of window
