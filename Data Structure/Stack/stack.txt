@@ -1,0 +1,28 @@
+Stack:
+A stack is a linear data structure where data is stored in a sequential manner, similar to an array. However, unlike an array, stack operations are restricted
+ to one end (called the top of the stack).
+
+
+Principal : LIFO mean last in first out
+
+Why We Use a Stack:
+When the last item added needs to be accessed or removed first.
+It helps manage problems where temporary data needs to be stored and then accessed in reverse order.
+Basic Operation: we use all array operation
+
+Applications of Stack:
+
+Reversing Words: Store characters of a word in a stack, and then pop them to reverse the word.
+Undo/Redo Operations: Most text editors use stacks to store actions for undo and redo functionality.
+Browser History:
+When you navigate to a new page, the current page is pushed onto the stack.
+When you click the "Back" button, the top page is popped from the stack to return to the previous page.
+
+
+Aspect	Array	Stack
+Access	Random access using an index.	Access is restricted to the top.
+Order	No strict order of insertion/removal.	Follows LIFO (Last In, First Out).
+Operations	Insert, delete, traverse, search.	Push, pop, peek, isEmpty.
+Flexibility	General-purpose structure.	Specialized structure for LIFO.
+Size	Usually fixed or dynamic.	Dynamic or based on an array size.
+Use Case	General data storage and manipulation.	Temporary data management (LIFO).
