@@ -1,0 +1,10 @@
+Link List:
+Link list is linear data structure and contain nodes 
+and node connect with next node
+Example : Train box connect with next box
+
+Node : it is consist of data and index of next node
+
+Head : it is first node and it is entry point for access entire node
+
+Tail : it is last node and optional
